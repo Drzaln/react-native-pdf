@@ -2,7 +2,7 @@ description = 'react-native-pdf'
 
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
         google()
     }
 
@@ -12,7 +12,7 @@ buildscript {
 }
 
 repositories {
-    mavenCentral()
+    jcenter()
     maven {
         url 'https://jitpack.io'
         content {
